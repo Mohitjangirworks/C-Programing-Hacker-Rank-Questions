@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+
+    float n,rate;
+    scanf("%f",&n);
+    if(n<0) {
+        printf("Invalid Input!");
+    }
+    else {
+        if(n<= 100) {
+            rate=5*n;
+        }
+        else if(n>100 && n<=300) {
+            rate=100*5+(n-100)*7;
+        }
+        else if(n>300) {
+            rate=100*5+200*7+(n-300)*10;
+        }
+        if(rate<=1200) {
+            printf("The electricity bill is: %.2f.",rate=rate-rate*0.10);
+        }
+        else {
+            printf("The electricity bill is: %.2f.",rate);
+        }
+    }
+
+
+
+}
