@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int h,t;
+    float c;
+    scanf("%d",&h);
+    scanf("%f",&c);
+    scanf("%d",&t);
+    if(50<h && c<0.7 && 5600<t){
+        printf("The grade of the steel is: 10\n");
+        printf("All of the conditions met.");
+    }
+    else if(50<h && c<0.7){
+        printf("The grade of the steel is: 9\n");
+        printf("Two conditions met.");
+    }
+    else if(c<0.7 && 5600<t){
+        printf("The grade of the steel is: 8\n");
+        printf("Two conditions met.");
+    }
+    else if(50<h && 5600<t){
+        printf("The grade of the steel is: 7\n");
+        printf("Two conditions met.");
+    }
+    else if(50<h){
+        printf("The grade of the steel is: 6\n");
+        printf("Only one condition met.");
+    }
+    else if(c<0.7){
+        printf("The grade of the steel is: 6\n");
+        printf("Only one condition met.");
+    }
+    else if(5600<t){
+        printf("The grade of the steel is: 6\n");
+        printf("Only one condition met.");
+    }
+    else{
+        printf("The grade of the steel is: 5\n");
+        printf("None of the conditions met.");
+    }
+    
+    return 0;
+}
