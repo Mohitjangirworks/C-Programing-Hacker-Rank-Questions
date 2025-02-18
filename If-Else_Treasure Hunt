@@ -1,0 +1,86 @@
+
+#include <stdio.h>
+
+int main()
+{
+   int a;
+   scanf("%d",&a);
+   switch(a){
+       case 1:printf("Player chooses the Left path.\n");
+       break;
+       case 2:printf("Player chooses the Middle path.\n");
+       break;
+       case 3:printf("Player chooses the Right path.\n");
+       break;
+   }
+  if(a==1){
+      int b;
+      scanf("\n%d",&b);
+      if(b==1){
+           printf("Poor choice, Game Over!");
+      }
+      else{
+           printf("Player found a bridge.\n");
+           int c;
+           scanf("\n%d",&c);
+           if(c==1){
+               printf("Player crosses the bridge safely.\n");
+               int d;
+               scanf("\n%d",&d);
+               switch(d){
+                   case 1: printf("All that glitters is not gold, Game Over!");
+                   break;
+                    case 2: printf("All your efforts were for nothing, Game Over!");
+                   break;
+                    case 3: printf("Congratulations!! You won the treasure.");
+                   break;
+               }
+           }
+           else{
+               printf("Poor luck, Game Over!");
+           }
+      }
+      
+  }
+  else if(a==2){
+      int b;
+      scanf("\n%d",&b);
+      if(b==582){
+           printf("Player solved the puzzle.\n");
+           int d;
+               scanf("\n%d",&d);
+               switch(d){
+                   case 1: printf("All that glitters is not gold, Game Over!");
+                   break;
+                    case 2: printf("All your efforts were for nothing, Game Over!");
+                   break;
+                    case 3: printf("Congratulations!! You won the treasure.");
+                   break;
+               }
+      }
+      else{
+          printf("Foolish player, Game Over!");
+      }
+    }  
+    else if(a==3){
+        int b;
+        scanf("%d",&b);
+        if(b==30){
+             printf("Player solved the puzzle.\n");
+           int d;
+               scanf("\n%d",&d);
+               switch(d){
+                   case 1: printf("All that glitters is not gold, Game Over!");
+                   break;
+                    case 2: printf("All your efforts were for nothing, Game Over!");
+                   break;
+                    case 3: printf("Congratulations!! You won the treasure.");
+                   break;
+               }
+        }
+        else{
+            printf("Foolish player, Game Over!");
+        }
+    }  
+    return 0;
+}
