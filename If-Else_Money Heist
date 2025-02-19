@@ -1,0 +1,219 @@
+#include <stdio.h>
+
+int main() {
+    int a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,index,ryt,index1,index2,ryt1,ryt2;
+    scanf("%d %d %d %d %d %d %d %d %d %d",&a0,&a1,&a2,&a3,&a4,&a5,&a6,&a7,&a8,&a9);
+    scanf("%d %d %d %d %d %d  ",&index,&ryt,&index1,&ryt1,&index2,&ryt2 );
+    if(index==0 || index1==0 ||index2==0) {
+        if(index1==0) {
+            a0+=ryt1;
+            if(a0>=10) {
+                a0-=10;
+            }
+        }
+        else if(index2==0) {
+            a0+=ryt2;
+            if(a0>=10) {
+                a0-=10;
+            }
+        }
+        else {
+            a0+=ryt;
+            if(a0>=10) {
+                a0-=10;
+            }
+        }
+    }
+    if(index==1 || index1==1 ||index2==1) {
+        if(index1==1) {
+            a1+=ryt1;
+            if(a1>=10) {
+                a1-=10;
+            }
+        }
+        else if(index2==1) {
+            a1+=ryt2;
+            if(a1>=10) {
+                a1-=10;
+            }
+        }
+        else {
+            a1+=ryt;
+            if(a1>=10) {
+                a1-=10;
+            }
+        }
+    }
+    if(index==2 || index1==2 ||index2==2) {
+        if(index1==2) {
+            a2+=ryt1;
+            if(a2>=10) {
+                a2-=10;
+            }
+        }
+        else if(index2==2) {
+            a2+=ryt2;
+            if(a2>=10) {
+                a2-=10;
+            }
+        }
+        else {
+            a2+=ryt;
+            if(a2>=10) {
+                a2-=10;
+            }
+        }
+    }
+
+
+    //3
+    if(index==3 || index1==3 ||index2==3) {
+        if(index1==3) {
+            a3+=ryt1;
+            if(a3>=10) {
+                a3-=10;
+            }
+        }
+        else if(index2==3) {
+            a3+=ryt2;
+            if(a3>=10) {
+                a3-=10;
+            }
+        }
+        else {
+            a3+=ryt;
+            if(a3>=10) {
+                a3-=10;
+            }
+        }
+    }
+
+//     4
+    if(index==4 || index1==4 ||index2==4) {
+        if(index1==4) {
+            a4+=ryt1;
+            if(a4>=10) {
+                a4-=10;
+            }
+        }
+        else if(index2==4) {
+            a4+=ryt2;
+            if(a4>=10) {
+                a4-=10;
+            }
+        }
+        else {
+            a4+=ryt;
+            if(a4>=10) {
+                a4-=10;
+            }
+        }
+    }
+// 5
+    if(index==5 || index1==5 ||index2==5) {
+        if(index1==5) {
+            a5+=ryt1;
+            if(a5>=10) {
+                a5-=10;
+            }
+        }
+        else if(index2==5) {
+            a5+=ryt2;
+            if(a5>=10) {
+                a5-=10;
+            }
+        }
+        else {
+            a5+=ryt;
+            if(a5>=10) {
+                a5-=10;
+            }
+        }
+    }
+//     6
+    if(index==6 || index1==6 ||index2==6) {
+        if(index1==6) {
+            a6+=ryt1;
+            if(a6>=10) {
+                a6-=10;
+            }
+        }
+        else if(index2==6) {
+            a6+=ryt2;
+            if(a6>=10) {
+                a6-=10;
+            }
+        }
+        else {
+            a6+=ryt;
+            if(a6>=10) {
+                a6-=10;
+            }
+        }
+    }
+//     7
+    if(index==7 || index1==7 ||index2==7) {
+        if(index1==7) {
+            a7+=ryt1;
+            if(a7>=10) {
+                a7-=10;
+            }
+        }
+        else if(index2==7) {
+            a7+=ryt2;
+            if(a7>=10) {
+                a7-=10;
+            }
+        }
+        else {
+            a7+=ryt;
+            if(a7>=10) {
+                a7-=10;
+            }
+        }
+    }
+    //8
+    if(index==8 || index1==8 ||index2==8) {
+        if(index1==8) {
+            a8+=ryt1;
+            if(a8>=10) {
+                a8-=10;
+            }
+        }
+        else if(index2==8) {
+            a8+=ryt2;
+            if(a8>=10) {
+                a8-=10;
+            }
+        }
+        else {
+            a8+=ryt;
+            if(a8>=10) {
+                a8-=10;
+            }
+        }
+    }
+//     9
+    if(index==9 || index1==9 ||index2==9) {
+        if(index1==9) {
+            a9+=ryt1;
+            if(a9>=10) {
+                a9-=10;
+            }
+        }
+        else if(index2==9) {
+            a9+=ryt2;
+            if(a9>=10) {
+                a9-=10;
+            }
+        }
+        else {
+            a9+=ryt;
+            if(a9>=10) {
+                a9-=10;
+            }
+        }
+    }
+    printf("%d %d %d %d %d %d %d %d %d %d",a0,a1,a2,a3,a4,a5,a6,a7,a8,a9);
+
+}
